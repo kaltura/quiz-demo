@@ -13,8 +13,8 @@ A small demo for utilising Kaltura's Quiz capabilities
 
 ## Contents:
 * partner_info.inc - global vars needed to establish a KS [Kaltura Session]
-* index.php - accepts an entry ID as a GET param, generates a KS and loads Kaltura Editor Application [KEA] as an iframe 
-* play.php - generates a KS with a random userId and loads a Quiz enabled Kaltura player [defined in partner_info.inc]
+* index.php - accepts an entry ID as a GET param, generates an ADMIN KS and loads Kaltura Editor Application [KEA] as an iframe 
+* play.php - generates a USER KS with a random userId and loads a Quiz enabled Kaltura player [defined in partner_info.inc]
 * report.php - shows basic quiz submission stats
 * util_functions.php - a collection of small utility functions used in report.php to display quiz submission stats.
 
