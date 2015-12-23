@@ -1,5 +1,5 @@
 <?php
-$partner_id=;
+$partner_id=0;
 // this should ideally be https://www.kaltura.com, at the moment, using HTTP cause of a bug in the SaaS config, prevent the latest version of clientlibs from using https://www.kaltura.com as service_url.
 $service_url="";
 // ADMIN secret:
@@ -13,6 +13,6 @@ $cdn_host='';
 //'filter:tagsMultiLikeOr' : 'kea_'+KEA_VERSION,
 //'service': 'uiConf',
 //'action': 'listTemplates'
-$playback_ui_conf_id=;
+$playback_ui_conf_id=0;
 ?>
 

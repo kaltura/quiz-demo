@@ -22,12 +22,12 @@ $client->setKs($ks);
 	<div id="kaltura_player" style="position:absolute;top:0;left:0;left: 0;right: 0;bottom:0;border:solid thin black;">
 	</div>
 </div>
-<script src="https://<?php echo $cdn_host?>/p/<?php echo $partner_id?>/sp/<?php echo $partner_id?>00/embedIframeJs/uiconf_id/<?php echo $ui_conf_id?>/partner_id/<?php echo $partner_id?>"></script>
+<script src="https://<?php echo $cdn_host?>/p/<?php echo $partner_id?>/sp/<?php echo $partner_id?>00/embedIframeJs/uiconf_id/<?php echo $playback_ui_conf_id?>/partner_id/<?php echo $partner_id?>"></script>
 <script>
     kWidget.embed({
 	    "targetId": "kaltura_player",
 	    "wid": "_<?php echo $partner_id?>",
-	    "uiconf_id": <?php echo $ui_conf_id?>,
+	    "uiconf_id": <?php echo $playback_ui_conf_id?>,
 	    "flashvars": {
 		"streamerType": "auto",
 		"ks":"<?php echo $ks?>"
