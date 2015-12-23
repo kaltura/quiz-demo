@@ -11,6 +11,7 @@ $config = new KalturaConfiguration($partner_id);
 $config->serviceUrl = $service_url;
 $client = new KalturaClient($config);
 // generate a KS with a random user ID so that each request will be counted as a new submission of the quiz
+// this should be replaced with the actual userId in a real application
 $ks = $client->session->start($user_secret,'user_'.date('U'), KalturaSessionType::USER, $partner_id, null, null);
 $client->setKs($ks);
 

@@ -12,7 +12,7 @@ require_once('util_functions.php');
 $config = new KalturaConfiguration($partner_id);
 $config->serviceUrl = $service_url;
 $client = new KalturaClient($config);
-$ks = $client->session->start($secret,'user_'.date('U'), KalturaSessionType::ADMIN, $partner_id, null, null);
+$ks = $client->session->start($secret,null, KalturaSessionType::ADMIN, $partner_id, null, null);
 $client->setKs($ks);
 ?>
 <HTML>

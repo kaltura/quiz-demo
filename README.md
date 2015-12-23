@@ -10,6 +10,7 @@ A small demo for utilising Kaltura's Quiz capabilities
 * Place partner_info.inc outside of your docroot and make it readable to the apache user or place under docroot but set proper .htaccess to avoid download
 * Edit partner_info.inc and set needed values
 * Place all other files under your docroot
+* Edit index.php, report.php and play.php so that the path to KalturaClient.php and partner_info.inc reflects your ENV
 
 ## Contents:
 * partner_info.inc - global vars needed to establish a KS [Kaltura Session]
