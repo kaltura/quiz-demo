@@ -1,7 +1,6 @@
 <?php
 $partner_id=0;
-// this should ideally be https://www.kaltura.com, at the moment, using HTTP cause of a bug in the SaaS config, prevent the latest version of clientlibs from using https://www.kaltura.com as service_url.
-$service_url="";
+$service_url="https://www.kaltura.com";
 // ADMIN secret:
 $secret='';
 // USER secret

@@ -71,8 +71,7 @@ if (count($result->objects) === 0 ){
 <body>
 <iframe id="kaltura_editor" src="#"  width="100%" height="710" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0"></iframe>
 <script type="text/javascript" language="javascript">
-// this should ideally be loaded over HTTPs, at the moment, using HTTP cause of a bug in the SaaS config, prevent the latest version of clientlibs from using https://www.kaltura.com as service_url.
-    var iframeUrl = "http://www.kaltura.com/apps/kea/v0.18.0/index.html#/index/" + <?php echo "'".$entry_id."'"?>;
+    var iframeUrl = "https://www.kaltura.com/apps/kea/v0.18.0/index.html#/index/" + <?php echo "'".$entry_id."'"?>;
     document.getElementById("kaltura_editor").src = iframeUrl;
 </script>
 <div align=center><a href="play.php?entry_id=<?php echo $entry_id?>">TAKE THE QUIZ</a></div>
