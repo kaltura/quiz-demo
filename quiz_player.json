@@ -1,0 +1,78 @@
+{
+  "plugins": {
+    "topBarContainer": [],
+    "controlBarContainer": [],
+    "scrubber": [],
+    "largePlayBtn": [],
+    "playHead": [],
+    "playPauseBtn": [],
+    "volumeControl": [],
+    "durationLabel": [],
+    "currentTimeLabel": [],
+    "keyboardShortcuts": [],
+    "liveCore": [],
+    "liveStatus": [],
+    "liveBackBtn": [],
+    "fullScreenBtn": [],
+    "logo": {"showTooltip":false},
+    "closedCaptions": {
+      "layout": "ontop",
+      "defaultLanguageKey": null,
+      "fontFamily": "Arial",
+      "fontsize": 12,
+      "bg": "0x000000",
+      "fontColor": "0xFFFFFF",
+      "useGlow": true,
+      "glowBlur": 4,
+      "glowColor": "0x000333",
+      "showEmbeddedCaptions": null,
+      "hideClosedCaptions": null,
+      "hideWhenEmpty":true
+    },
+    "statistics": {
+      "plugin": true,
+      "width": "0%",
+      "height": "0%",
+      "includeInLayout": false
+    },
+    "moderation": {
+      "plugin": true,
+      "width": "100%",
+      "height": "100%",
+      "header": "Report this content as inappropriate",
+      "text": "Please describe your concern about the video, so that we can review it and determine whether it isn't appropriate for all viewers."
+    },
+    "expandToggleBtn": {
+      "plugin": true,
+      "tooltip": "Expand player",
+      "selectedTooltip": "Shrink player",
+      "kClick": "kmsExpandShrinkPlayer"
+    },
+    "akamaiMediaAnalytics": {
+      "plugin": true,
+      "width": "0%",
+      "height": "0%",
+      "includeInLayout": false,
+      "asyncInit": true,
+      "swfPath": "http:\/\/79423.analytics.edgesuite.net\/csma\/plugin\/csma.swf",
+      "configPath": "http:\/\/ma193-r.analytics.edgesuite.net\/config\/beacon-3431.xml",
+      "securedSwfPath": "https:\/\/79423.analytics.edgekey.net\/csma\/plugin\/csma.swf",
+      "securedConfigPath": "https:\/\/ma193-r.analytics.edgekey.net\/config\/beacon-3900.xml"
+    },
+    "quiz": {
+      "plugin": true
+    }
+  },
+  "vars": {
+    "imageDefaultDuration": 2,
+    "autoPlay": false,
+    "autoMute": false
+  },
+  "pluginIds": [
+    "mediaProxy", "strings", "kalturaMix", "statistics", "closedCaptionsOverPlayer",
+    "captionsOverFader", "moderation", "expandToggleBtn", "akamaiMediaAnalytics"
+  ],
+  "layout": {
+    "skin": "kdark"
+  }
+}
