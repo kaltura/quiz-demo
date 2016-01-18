@@ -30,7 +30,7 @@ $uiConf->creationMode=2;
 $uiConf->useCdn = '1';
 $uiConf->swfUrlVersion = '3.9.9';
 $uiConf->tags="autodeploy, kms_v5.0.0, kms_kdp3,player,html5v2,quiz_player,bse";
-$uiConf->html5Url="/html5/html5lib/$player_version/mwEmbedLoader.php";
+$uiConf->html5Url="/html5/html5lib/$player_ver/mwEmbedLoader.php";
 $uiConf->version=2;
 $results = $client->uiConf->add($uiConf);
 echo "Generated UI conf id : ".$results->id ."\n";
